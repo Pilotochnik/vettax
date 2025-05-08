@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон с градиентом -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3e5f5" />
+      <stop offset="100%" stop-color="#e1f5fe" />
+    </linearGradient>
+    
+    <!-- Градиент для собаки -->
+    <linearGradient id="dog-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bcaaa4" />
+      <stop offset="100%" stop-color="#8d6e63" />
+    </linearGradient>
+    
+    <!-- Тень документа -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="400" height="300" fill="url(#bg-gradient)" rx="20" ry="20"/>
+  
+  <!-- Документ с рекомендациями -->
+  <g transform="translate(150, 150)">
+    <!-- Основной лист -->
+    <rect x="-80" y="-100" width="160" height="200" rx="10" fill="white" filter="url(#shadow)"/>
+    
+    <!-- Заголовок -->
+    <rect x="-70" y="-90" width="140" height="20" rx="3" fill="#9575cd" opacity="0.8"/>
+    <circle cx="-60" cy="-80" r="5" fill="white"/>
+    <rect x="-50" y="-83" width="110" height="5" rx="2" fill="white" opacity="0.8"/>
+    
+    <!-- Линии текста -->
+    <rect x="-70" y="-60" width="140" height="4" rx="2" fill="#e0e0e0"/>
+    <rect x="-70" y="-50" width="140" height="4" rx="2" fill="#e0e0e0"/>
+    <rect x="-70" y="-40" width="110" height="4" rx="2" fill="#e0e0e0"/>
+    
+    <!-- Первый чекбокс с рекомендацией -->
+    <rect x="-70" y="-20" width="10" height="10" rx="2" fill="#81c784" stroke="#4caf50" stroke-width="1"/>
+    <path d="M-67,-15 L-65,-12 L-62,-18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="-55" y="-20" width="125" height="4" rx="2" fill="#9e9e9e"/>
+    <rect x="-55" y="-12" width="90" height="3" rx="1.5" fill="#e0e0e0"/>
+    
+    <!-- Второй чекбокс с рекомендацией -->
+    <rect x="-70" y="0" width="10" height="10" rx="2" fill="#81c784" stroke="#4caf50" stroke-width="1"/>
+    <path d="M-67,5 L-65,8 L-62,2" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="-55" y="0" width="125" height="4" rx="2" fill="#9e9e9e"/>
+    <rect x="-55" y="8" width="110" height="3" rx="1.5" fill="#e0e0e0"/>
+    
+    <!-- Третий чекбокс с рекомендацией -->
+    <rect x="-70" y="20" width="10" height="10" rx="2" fill="#81c784" stroke="#4caf50" stroke-width="1"/>
+    <path d="M-67,25 L-65,28 L-62,22" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="-55" y="20" width="125" height="4" rx="2" fill="#9e9e9e"/>
+    <rect x="-55" y="28" width="80" height="3" rx="1.5" fill="#e0e0e0"/>
+    
+    <!-- Четвертый чекбокс с рекомендацией -->
+    <rect x="-70" y="40" width="10" height="10" rx="2" fill="#81c784" stroke="#4caf50" stroke-width="1"/>
+    <path d="M-67,45 L-65,48 L-62,42" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="-55" y="40" width="125" height="4" rx="2" fill="#9e9e9e"/>
+    <rect x="-55" y="48" width="100" height="3" rx="1.5" fill="#e0e0e0"/>
+    
+    <!-- Подпись ветеринара -->
+    <path d="M-70,75 C-60,65 -50,85 -40,75 C-30,65 -20,85 -10,75 C0,65 10,75 20,65" 
+          stroke="#7986cb" stroke-width="2" fill="none"/>
+    
+    <!-- Иконка печати -->
+    <circle cx="50" cy="70" r="15" fill="#e1f5fe" opacity="0.7"/>
+    <path d="M40,70 L60,70 M50,60 L50,80" stroke="#29b6f6" stroke-width="1.5" />
+    <circle cx="50" cy="70" r="10" stroke="#29b6f6" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Собака -->
+  <g transform="translate(290, 150)">
+    <!-- Тело -->
+    <ellipse cx="0" cy="0" rx="40" ry="30" fill="url(#dog-gradient)"/>
+    
+    <!-- Голова -->
+    <circle cx="-25" cy="-10" r="25" fill="url(#dog-gradient)"/>
+    
+    <!-- Уши -->
+    <path d="M-45,-20 L-55,-35 L-40,-25 Z" fill="#8d6e63"/>
+    <path d="M-15,-25 L-5,-35 L-10,-20 Z" fill="#8d6e63"/>
+    
+    <!-- Глаза -->
+    <ellipse cx="-35" cy="-15" rx="4" ry="5" fill="white"/>
+    <ellipse cx="-15" cy="-15" rx="4" ry="5" fill="white"/>
+    <circle cx="-35" cy="-15" r="2" fill="#424242">
+      <animate attributeName="r" values="2;1.5;2" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-15" cy="-15" r="2" fill="#424242">
+      <animate attributeName="r" values="2;1.5;2" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Нос -->
+    <ellipse cx="-25" cy="-5" rx="5" ry="3" fill="#5d4037"/>
+    
+    <!-- Улыбка -->
+    <path d="M-35,5 C-30,15 -20,15 -15,5" stroke="#5d4037" stroke-width="1.5" fill="none"/>
+    
+    <!-- Язык -->
+    <path d="M-28,5 C-28,10 -22,10 -22,5 Z" fill="#ef9a9a"/>
+    
+    <!-- Лапы -->
+    <ellipse cx="-25" cy="25" rx="10" ry="5" fill="#8d6e63"/>
+    <ellipse cx="30" cy="25" rx="10" ry="5" fill="#8d6e63"/>
+    
+    <!-- Хвост -->
+    <path d="M40,0 C60,-10 60,20 45,15" fill="none" stroke="#8d6e63" stroke-width="8" stroke-linecap="round">
+      <animate attributeName="d" values="M40,0 C60,-10 60,20 45,15;M40,0 C60,-5 55,15 45,15;M40,0 C60,-10 60,20 45,15" dur="3s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Ошейник с биркой -->
+    <path d="M-40,-5 C-40,0 -10,0 -10,-5" stroke="#f44336" stroke-width="3" fill="none"/>
+    <circle cx="-25" cy="0" r="5" fill="#ffc107" stroke="#ff9800" stroke-width="1"/>
+    <text x="-25" y="3" font-family="Arial" font-size="6" font-weight="bold" text-anchor="middle" fill="#5d4037">P</text>
+  </g>
+  
+  <!-- Иконка здоровья или ухода -->
+  <g transform="translate(70, 90)">
+    <circle cx="0" cy="0" r="30" fill="#ef5350" opacity="0.2"/>
+    <path d="M-15,0 L15,0 M0,-15 L0,15" stroke="#ef5350" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Элементы питания или лекарства -->
+  <g transform="translate(80, 200)">
+    <rect x="-20" y="-15" width="40" height="30" rx="5" fill="#aed581" opacity="0.8"/>
+    <path d="M-10,-5 L10,-5 M-10,5 L10,5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    
+    <circle cx="30" cy="-5" r="12" fill="#fff59d" opacity="0.8"/>
+    <path d="M30,-10 L30,0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <path d="M25,-5 L35,-5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Заголовок -->
+  <text x="200" y="270" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333333">Рекомендации по уходу</text>
+</svg> 

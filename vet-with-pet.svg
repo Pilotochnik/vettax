@@ -1,0 +1,111 @@
+<svg width="600" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="600" height="500" fill="#f5f7fa" rx="20" ry="20" />
+  
+  <!-- Ветеринар -->
+  <g transform="translate(260, 120)">
+    <!-- Голова -->
+    <circle cx="30" cy="40" r="30" fill="#ffcc99" />
+    <!-- Волосы -->
+    <path d="M0,40 C0,20 60,20 60,40 L60,30 C60,5 0,5 0,30 Z" fill="#5D4037" />
+    <!-- Лицо -->
+    <circle cx="20" cy="35" r="3" fill="#5D4037" />
+    <circle cx="40" cy="35" r="3" fill="#5D4037" />
+    <path d="M20,50 C25,55 35,55 40,50" fill="none" stroke="#5D4037" stroke-width="2" />
+    <!-- Стетоскоп -->
+    <path d="M30,75 C30,90 10,95 10,110 C10,125 30,125 30,110 L30,90" fill="none" stroke="#4CAF50" stroke-width="4" />
+    <circle cx="30" cy="90" r="5" fill="#4CAF50" />
+    
+    <!-- Тело -->
+    <rect x="5" y="70" width="50" height="80" fill="white" rx="10" ry="10" />
+    <rect x="5" y="70" width="50" height="20" fill="#4CAF50" rx="10" ry="10" />
+    
+    <!-- Руки -->
+    <path d="M5,85 C-20,85 -20,130 -10,140" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+    <path d="M55,85 C80,85 80,130 70,140" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+    
+    <!-- Ноги -->
+    <rect x="15" y="150" width="10" height="50" fill="#2c3e50" rx="5" ry="5" />
+    <rect x="35" y="150" width="10" height="50" fill="#2c3e50" rx="5" ry="5" />
+    <rect x="10" y="195" width="20" height="5" fill="#34495e" rx="2" ry="2" />
+    <rect x="30" y="195" width="20" height="5" fill="#34495e" rx="2" ry="2" />
+  </g>
+  
+  <!-- Кошка -->
+  <g transform="translate(150, 220)">
+    <!-- Тело -->
+    <ellipse cx="50" cy="60" rx="40" ry="30" fill="#f0c087" />
+    
+    <!-- Голова -->
+    <circle cx="30" cy="30" r="25" fill="#f0c087" />
+    
+    <!-- Уши -->
+    <path d="M10,15 L20,5 L30,15 Z" fill="#d4a373" />
+    <path d="M30,15 L40,5 L50,15 Z" fill="#d4a373" />
+    
+    <!-- Глаза -->
+    <ellipse cx="20" cy="25" rx="4" ry="5" fill="white" />
+    <ellipse cx="40" cy="25" rx="4" ry="5" fill="white" />
+    <circle cx="20" cy="25" r="2" fill="#333" />
+    <circle cx="40" cy="25" r="2" fill="#333" />
+    
+    <!-- Нос -->
+    <path d="M28,35 L32,35 L30,38 Z" fill="#f88379" />
+    
+    <!-- Усы -->
+    <line x1="30" y1="38" x2="10" y2="35" stroke="#666" />
+    <line x1="30" y1="38" x2="10" y2="38" stroke="#666" />
+    <line x1="30" y1="38" x2="10" y2="41" stroke="#666" />
+    <line x1="30" y1="38" x2="50" y2="35" stroke="#666" />
+    <line x1="30" y1="38" x2="50" y2="38" stroke="#666" />
+    <line x1="30" y1="38" x2="50" y2="41" stroke="#666" />
+    
+    <!-- Лапы -->
+    <ellipse cx="20" cy="85" rx="10" ry="5" fill="#d4a373" />
+    <ellipse cx="80" cy="85" rx="10" ry="5" fill="#d4a373" />
+    
+    <!-- Хвост -->
+    <path d="M90,60 C110,40 120,70 110,90" fill="none" stroke="#f0c087" stroke-width="10" stroke-linecap="round" />
+  </g>
+  
+  <!-- Собака -->
+  <g transform="translate(380, 250)">
+    <!-- Тело -->
+    <ellipse cx="40" cy="50" rx="35" ry="25" fill="#a87b50" />
+    
+    <!-- Голова -->
+    <circle cx="30" cy="20" r="20" fill="#a87b50" />
+    
+    <!-- Уши -->
+    <path d="M10,5 L20,15 L0,25 Z" fill="#8c6240" />
+    <path d="M50,5 L40,15 L60,25 Z" fill="#8c6240" />
+    
+    <!-- Глаза -->
+    <circle cx="20" cy="20" r="3" fill="white" />
+    <circle cx="40" cy="20" r="3" fill="white" />
+    <circle cx="20" cy="20" r="1.5" fill="#333" />
+    <circle cx="40" cy="20" r="1.5" fill="#333" />
+    
+    <!-- Нос -->
+    <ellipse cx="30" cy="28" rx="5" ry="3" fill="#333" />
+    
+    <!-- Рот -->
+    <path d="M30,28 L30,35 C25,40 35,40 30,35 Z" fill="none" stroke="#8c6240" stroke-width="1" />
+    
+    <!-- Лапы -->
+    <ellipse cx="15" cy="70" rx="8" ry="5" fill="#8c6240" />
+    <ellipse cx="65" cy="70" rx="8" ry="5" fill="#8c6240" />
+    
+    <!-- Хвост -->
+    <path d="M75,50 C95,40 100,60 90,70" fill="none" stroke="#a87b50" stroke-width="8" stroke-linecap="round" />
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="450" cy="100" r="40" fill="#e1f5fe" opacity="0.5" />
+  <circle cx="150" cy="150" r="25" fill="#e8f5e9" opacity="0.5" />
+  <circle cx="100" cy="400" r="30" fill="#f3e5f5" opacity="0.5" />
+  <circle cx="500" cy="350" r="35" fill="#fff8e1" opacity="0.5" />
+  
+  <!-- Сердце -->
+  <path d="M480,180 C520,140 560,180 520,220 L480,260 L440,220 C400,180 440,140 480,180 Z" fill="#ff7c5c" opacity="0.3" />
+</svg> 

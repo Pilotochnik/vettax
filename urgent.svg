@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="60" cy="60" r="60" fill="#FFEBEE"/>
+  <circle cx="60" cy="60" r="48" fill="#FFCDD2"/>
+  
+  <!-- Машина скорой помощи -->
+  <rect x="25" y="60" width="70" height="25" rx="3" fill="#FFFFFF" stroke="#F44336" stroke-width="2"/>
+  <rect x="30" y="50" width="40" height="10" rx="2" fill="#FFFFFF" stroke="#F44336" stroke-width="2"/>
+  <rect x="30" y="85" width="10" height="5" rx="1" fill="#333333"/>
+  <rect x="80" y="85" width="10" height="5" rx="1" fill="#333333"/>
+  
+  <!-- Красный крест на машине -->
+  <rect x="75" y="62" width="15" height="5" fill="#F44336"/>
+  <rect x="80" y="57" width="5" height="15" fill="#F44336"/>
+  
+  <!-- Сирена -->
+  <path d="M50 50 L60 40 L70 50" stroke="#F44336" stroke-width="3" fill="none"/>
+  <rect x="55" y="40" width="10" height="3" fill="#F44336"/>
+  
+  <!-- Мигалки -->
+  <circle cx="45" cy="53" r="3" fill="#F44336"/>
+  <circle cx="55" cy="53" r="3" fill="#1E88E5"/>
+  
+  <!-- Символы срочности -->
+  <path d="M90 30 L95 25 L100 30 L95 35 Z" fill="#F44336"/>
+  <path d="M20 40 L25 35 L30 40 L25 45 Z" fill="#F44336"/>
+  <path d="M85 90 L90 85 L95 90 L90 95 Z" fill="#F44336"/>
+  
+  <!-- Стрелки времени -->
+  <path d="M60 20 C65 15, 75 25, 70 30" stroke="#F44336" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M65 15 L65 25 L75 25" stroke="#F44336" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg> 

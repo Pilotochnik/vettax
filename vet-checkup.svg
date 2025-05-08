@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f5f5f5"/>
+  <circle cx="200" cy="150" r="80" fill="#FFC107" opacity="0.3"/>
+  <path d="M150 100 C170 80 230 80 250 100" stroke="#9C27B0" stroke-width="3" fill="none"/>
+  <circle cx="170" cy="120" r="10" fill="#000000" opacity="0.7"/>
+  <circle cx="230" cy="120" r="10" fill="#000000" opacity="0.7"/>
+  <path d="M170 180 C180 200 220 200 230 180" stroke="#000000" stroke-width="3" fill="none"/>
+  <path d="M140 150 L120 140 L110 160" stroke="#795548" stroke-width="3" fill="none"/>
+  <path d="M260 150 L280 140 L290 160" stroke="#795548" stroke-width="3" fill="none"/>
+  <text x="200" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">Veterinary Checkup</text>
+</svg> 
